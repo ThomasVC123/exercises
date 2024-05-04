@@ -1,3 +1,4 @@
 import re
-def one_or_more_a(string):
+
+def equals_abc(string):
     return re.fullmatch('a+', string)

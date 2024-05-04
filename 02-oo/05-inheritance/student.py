@@ -81,3 +81,4 @@ class King(ChessPiece):
         if abs(new_position.y - self.position.y) > 1:
             return False
         return True
+
